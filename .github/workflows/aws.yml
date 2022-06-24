@@ -13,7 +13,7 @@ env:
   ECS_SERVICE: tut-ubiquitous-parakeet-ec2-service
   ECS_CLUSTER: tut-ubiquitous-parakeet
   ECS_TASK_DEFINITION: .aws/ec2-task-definition.json
-  CONTAINER_NAME: tut-ubiquitous-parakeet
+  CONTAINER_NAME: tut-ubiquitous-parakeet-ec2
 
 jobs:
   deploy:
